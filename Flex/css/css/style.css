@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  position: relative;
+}
+header {
+  background-color: darkgreen;
+  width: 100%;
+}
+main {
+  background-color: crimson;
+  width: 60%;
+  padding: 10px;
+  border: 10px solid black;
+  margin-left: 0.1%;
+  background-image: url("../../bild/bild/bild1.jpg");
+  background-position: left;
+  background-attachment: fixed;
+}
+aside {
+  position: absolute;
+  right: 60%;
+  top: 200px;
+  width: 39.9%;
+  height: 600px;
+  background-image: url("../../bild/bild/bild1.jpg");
+  background-attachment: fixed;
+}
+footer {
+  background-color: aqua;
+  width: 100%;
+}
